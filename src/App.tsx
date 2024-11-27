@@ -1,8 +1,12 @@
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import MainApp from "./pages/MainApp"
 
-export default App
+const App: React.FC = () => {
+  return (
+    <div>
+      <MainApp/>
+    </div>
+  );
+};
+
+export default App;
