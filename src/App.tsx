@@ -9,12 +9,14 @@ import BeforeAfterSection from './components/BeforeAfterSection';
 import InventoryToolInfo from './components/InventoryToolInfo';
 import InventoryFeature from './components/InventoryFeature';
 import Footer from './components/Footer';
+import FeaturesPage from './components/Features';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <Navbar />
       <HomePage />
+      <FeaturesPage />
       <AwardsSection />
       <Inventory />
       <KeyBenefits />

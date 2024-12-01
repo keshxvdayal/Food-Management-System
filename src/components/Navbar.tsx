@@ -4,12 +4,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex justify-between items-center p-4 bg-white shadow-md">
       <div className="flex items-center">
-        <span className="text-xl font-bold text-gray-800">TOTAL<span className="text-green-500">CTRL</span></span>
+        <span className="text-xl font-bold text-gray-800">FOOD<span className="text-green-500">CTRL</span></span>
       </div>
       <div className="flex space-x-6">
-        <a href="#" className="text-gray-700 hover:text-gray-900">Products</a>
-        <a href="#" className="text-gray-700 hover:text-gray-900">Pricing</a>
-        <a href="#" className="text-gray-700 hover:text-gray-900">Blog</a>
+        <a href="#" className="text-gray-700 hover:text-gray-900">Map</a>
+        <a href="#" className="text-gray-700 hover:text-gray-900">Inventory</a>
+        <a href="#" className="text-gray-700 hover:text-gray-900">Donate Food</a>
         <a href="#" className="text-gray-700 hover:text-gray-900">Learn More</a>
       </div>
       <div className="flex space-x-4">
@@ -21,3 +21,8 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+
+
+// MAP 
+// INVETORY 
+// DONATED FOOD
