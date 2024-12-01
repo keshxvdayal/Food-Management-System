@@ -12,7 +12,7 @@ const AwardsSection: React.FC = () => {
             <CheckCircleIcon className="h-8 w-8 text-green-500" />
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-gray-900">Award-winning</h3>
+            <h3 className="text-xl font-semibold text-gray-900">Donate Food</h3>
             <p className="text-gray-700">Winner of over 50 industry awards</p>
           </div>
         </div>
